@@ -16,7 +16,7 @@ class Dog
 
   def dog_identity
     @name
-    @breed
+    @breed = "Mutt"
   end
 
 end
