@@ -1,20 +1,4 @@
-class Dog
-  def initialize(name, breed)
-    @name = name
-    @breed = breed
-  end
 
-  def name_and_breed=(name, breed)
-    @name = name
-    @breed = "Mutt"
-  end
-
-  def name_and_breed
-    @name
-    @breed
-  end
-
-end
 
 
 
@@ -31,7 +15,8 @@ class Dog
   end
 
   def dog_identity
-    "#{@name} #{@breed}".strip
+    @name
+    @breed
   end
 
 end
